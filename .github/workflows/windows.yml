@@ -49,7 +49,7 @@ jobs:
           haxelib list
       
       - name: compile
-          haxelib run lime build windows
+        run: haxelib run lime build windows
           
       - uses: actions/upload-artifact@v2
         with:
